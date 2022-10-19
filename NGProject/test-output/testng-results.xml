@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testing if logs about a test method is visible]]>
+    </line>
+    <line>
+      <![CDATA[Testing if logs about a test method is visible]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-13T03:36:48Z" name="Data Driven testing" finished-at="2022-10-13T03:37:23Z" duration-ms="35227">
+    <groups>
+    </groups>
+    <test started-at="2022-10-13T03:36:48Z" name="positive data set" finished-at="2022-10-13T03:37:06Z" duration-ms="17732">
+      <class name="testScripts.accountCreation">
+        <test-method is-config="true" signature="setupAccount()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:48Z" name="setupAccount" finished-at="2022-10-12T23:36:49Z" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAccount -->
+        <test-method signature="testFive()[pri:1, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="testFive" finished-at="2022-10-12T23:36:49Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="beforeMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="afterMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="beforeMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTwo()[pri:2, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="testTwo" finished-at="2022-10-12T23:36:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing if logs about a test method is visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="beforeMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="afterMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testFour()[pri:4, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="testFour" finished-at="2022-10-12T23:36:49Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method signature="testOne()[pri:5, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="testOne" finished-at="2022-10-12T23:36:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="beforeMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="afterMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="afterMethod" finished-at="2022-10-12T23:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeapplication()[pri:0, instance:testScripts.accountCreation@15de0b3c]" started-at="2022-10-12T23:36:49Z" name="closeapplication" finished-at="2022-10-12T23:37:06Z" duration-ms="16176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- testScripts.accountCreation -->
+    </test> <!-- positive data set -->
+    <test started-at="2022-10-13T03:37:06Z" name="negative testing against password field" finished-at="2022-10-13T03:37:23Z" duration-ms="17469">
+      <class name="testScripts.accountCreation">
+        <test-method is-config="true" signature="setupAccount()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:06Z" name="setupAccount" finished-at="2022-10-12T23:37:07Z" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAccount -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="beforeMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testFive()[pri:1, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="testFive" finished-at="2022-10-12T23:37:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="afterMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="beforeMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTwo()[pri:2, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="testTwo" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing if logs about a test method is visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method signature="testFour()[pri:4, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="testFour" finished-at="2022-10-12T23:37:07Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="afterMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="beforeMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="afterMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="beforeMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testOne()[pri:5, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="testOne" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="afterMethod" finished-at="2022-10-12T23:37:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeapplication()[pri:0, instance:testScripts.accountCreation@6ad82709]" started-at="2022-10-12T23:37:07Z" name="closeapplication" finished-at="2022-10-12T23:37:23Z" duration-ms="16184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- testScripts.accountCreation -->
+    </test> <!-- negative testing against password field -->
+  </suite> <!-- Data Driven testing -->
+</testng-results>

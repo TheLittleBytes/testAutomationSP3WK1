@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Regression Suite" parallel="batch">
+
+	<test name = "Release version">
+	
+		<classes>
+		
+			<class name = "testScripts.accountCreation"></class>
+			<class name = "testScripts.accountRegistration"></class>
+			
+		</classes>
+	
+	</test>
+
+</suite>

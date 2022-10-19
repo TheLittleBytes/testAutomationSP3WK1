@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "Data Driven testing">
+
+	<test name = "positive data set">	
+
+		<parameter name = "firstName" value = "Matthew"/>
+		<parameter name = "lastName" value = "Burke"/>
+		<parameter name = "userName" value = "mburke"/>
+		<parameter name = "password" value = "wenbam12#"/>
+		
+			<classes>
+			
+				<class name = "testScripts.accountCreation"></class>
+			
+			</classes>
+		
+	</test>
+
+
+	<test name = "negative testing against password field">	
+
+		<parameter name = "firstName" value = "Matthew"/>
+		<parameter name = "lastName" value = "Burke"/>
+		<parameter name = "userName" value = "mburke"/>
+		<parameter name = "password" value = ""/>
+		
+			<classes>
+			
+				<class name = "testScripts.accountCreation"></class>
+			
+			</classes>
+		
+	</test>
+
+</suite>
